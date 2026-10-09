@@ -1,0 +1,5 @@
+# https://road2care.com/robots.txt
+User-agent: *
+Allow: /
+
+Sitemap: https://road2care.com/sitemap.xml

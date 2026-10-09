@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="roadGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B3954"/>
+      <stop offset="100%" stop-color="#004B87"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5A623"/>
+      <stop offset="100%" stop-color="#E59500"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#0B3954"/>
+  <!-- Road Curve -->
+  <path d="M 12 50 C 14 36, 22 26, 32 18 C 38 13, 44 14, 50 14" fill="none" stroke="#F5A623" stroke-width="4" stroke-linecap="round"/>
+  <!-- Care Heart / Person mark -->
+  <circle cx="34" cy="30" r="5" fill="#FFFFFF"/>
+  <path d="M 26 44 C 26 38, 30 35, 34 35 C 38 35, 42 38, 42 44" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="46" cy="42" r="3.5" fill="#F5A623"/>
+</svg>
