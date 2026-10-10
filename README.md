@@ -186,7 +186,7 @@ Before changing anything:
 
 ## 📬 Enquiry Form Backend Integration
 
-The contact form currently validates inputs and provides an immediate **"Open in Email & Send Now"** (`mailto:`) fallback that pre-fills the recipient (`info@road2care.com`), subject, and formatted body.
+The contact form currently validates inputs and provides an immediate **"Open in Email & Send Now"** (`mailto:`) fallback that pre-fills the recipient (`admin@road2care.com.au`), subject, and formatted body.
 
 ### Recommended Free Backend Options:
 To receive submissions directly without opening the user's email client:
@@ -195,7 +195,7 @@ To receive submissions directly without opening the user's email client:
    * Create an account on [formspree.io](https://formspree.io).
    * Update the form `action` URL in `src/pages/ContactPage.tsx` with your Formspree endpoint.
 2. **Cloudflare Workers (100% Free):**
-   * Deploy a lightweight Cloudflare Worker with SendGrid or Resend to forward form POST requests directly to `info@road2care.com`.
+   * Deploy a lightweight Cloudflare Worker with SendGrid or Resend to forward form POST requests directly to `admin@road2care.com.au`.
 
 ---
 
@@ -204,8 +204,8 @@ To receive submissions directly without opening the user's email client:
 Every placeholder used across the website is transparently documented below. The business owner should complete this checklist prior to public promotion:
 
 - [ ] **ABN (Australian Business Number):** Provide genuine ABN to replace `XX XXX XXX XXX` in `siteConfig.ts` and footer.
-- [ ] **Phone Number:** Confirm business telephone number to replace placeholder `0400 000 000`.
-- [ ] **Email Address:** Verify active email address (`info@road2care.com`) where enquiries will be received.
+- [x] **Phone Number:** Confirmed: `0482 043 737`.
+- [x] **Email Address:** Confirmed: `admin@road2care.com.au`.
 - [ ] **NDIS Registration Status:** Verify current status with the NDIS Quality and Safeguards Commission. (Currently configured as *Unregistered Provider / Supporting Self-Managed & Plan-Managed Participants*).
 - [ ] **Service Offerings Confirmation:** Review the 9 services configured in `src/config/siteConfig.ts` and disable (`enabled: false`) any services that Road2Care does not currently offer.
 - [ ] **Operating Regions & Suburbs:** Review the listed Melbourne suburbs in `siteConfig.ts` and confirm specific coverage areas and travel limits.
