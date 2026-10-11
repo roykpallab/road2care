@@ -22,6 +22,7 @@ export const Logo: React.FC<LogoProps> = ({ className = '', height = 50, variant
       >
         <img
           src="./images/road2care-logo-hd.png"
+          srcSet="./images/road2care-logo-hd.png 1x, ./images/road2care-logo-4k.png 2x"
           alt="Road 2 Care Pty Ltd - Empowering Abilities. Enriching Lives"
           style={{
             height: `${height}px`,
