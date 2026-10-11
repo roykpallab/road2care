@@ -21,8 +21,8 @@ import { useDocumentTitle } from '../hooks/useDocumentTitle';
 
 export const ServicesPage: React.FC = () => {
   useDocumentTitle(
-    'NDIS Services & Support Options | Road2Care Melbourne',
-    'Explore flexible NDIS support services offered by Road2Care including personal care, community participation, daily living skills, transport, and respite.'
+    'NDIS Services & Support Options | Road 2 Care Pty Ltd Melbourne',
+    'Explore flexible NDIS support services offered by Road 2 Care Pty Ltd including personal care, community participation, daily living skills, transport, and respite.'
   );
 
   const location = useLocation();
@@ -83,7 +83,7 @@ export const ServicesPage: React.FC = () => {
             <span className="eyebrow light">Flexible & Person-Centred</span>
             <h1>Our Disability Support Services</h1>
             <p className="lead">
-              At Road2Care, we listen to your goals and tailor support that encourages independence, choice, and
+              At Road 2 Care, we listen to your goals and tailor support that encourages independence, choice, and
               community inclusion. Explore our service options below.
             </p>
 
@@ -93,7 +93,7 @@ export const ServicesPage: React.FC = () => {
               <div>
                 <strong>Local Availability Notice:</strong>
                 <span>
-                  {' '}Service categories are customizable and subject to individual plan matching and team capacity in your area. Contact Road2Care to confirm availability.
+                  {' '}Service categories are customizable and subject to individual plan matching and team capacity in your area. Contact Road 2 Care to confirm availability.
                 </span>
               </div>
             </div>

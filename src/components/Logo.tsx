@@ -10,7 +10,7 @@ export const Logo: React.FC<LogoProps> = ({ className = '', height = 50 }) => {
     <div className={`logo-container ${className}`} style={{ display: 'inline-flex', alignItems: 'center' }}>
       <img
         src="./images/road2care-logo-transparent.png"
-        alt="Road2Care - Empowering Abilities. Enriching Lives"
+        alt="Road 2 Care Pty Ltd - Empowering Abilities. Enriching Lives"
         style={{
           height: `${height}px`,
           width: 'auto',

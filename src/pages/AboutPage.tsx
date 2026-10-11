@@ -17,8 +17,8 @@ import { useDocumentTitle } from '../hooks/useDocumentTitle';
 
 export const AboutPage: React.FC = () => {
   useDocumentTitle(
-    'About Road2Care | Mission, Values & Person-Centred NDIS Support',
-    'Learn about Road2Care: our mission, values, commitment to participant choice and dignity, and our qualified, worker-screened support team in Melbourne.'
+    'About Road 2 Care Pty Ltd | Mission, Values & Person-Centred NDIS Support',
+    'Learn about Road 2 Care Pty Ltd: our mission, values, commitment to participant choice and dignity, and our qualified, worker-screened support team in Melbourne.'
   );
 
   const values = [
@@ -55,10 +55,10 @@ export const AboutPage: React.FC = () => {
       <section className="about-hero">
         <div className="container">
           <div className="about-hero-content">
-            <span className="eyebrow light">About Road2Care</span>
+            <span className="eyebrow light">About Road 2 Care</span>
             <h1>Compassionate Support. Genuine Community.</h1>
             <p className="lead">
-              Road2Care was founded on a simple yet profound belief: that every individual with disability
+              Road 2 Care was founded on a simple yet profound belief: that every individual with disability
               deserves respectful, reliable, and uplifting support that empowers them to lead an enriched,
               self-directed life.
             </p>
@@ -79,7 +79,7 @@ export const AboutPage: React.FC = () => {
               </p>
               <p>
                 Whether assisting with daily routines in the comfort of your home, exploring Melbourne’s vibrant
-                community, or building skills for greater independence, Road2Care approaches every interaction
+                community, or building skills for greater independence, Road 2 Care approaches every interaction
                 with patience, warmth, and professional integrity.
               </p>
               <div className="purpose-quote">
@@ -162,7 +162,7 @@ export const AboutPage: React.FC = () => {
                 <h3>Police & Working With Children Checks</h3>
                 <p>
                   Current National Police Records Checks and Working with Children Checks (WWCC) are mandatory
-                  prerequisites for all Road2Care personnel.
+                  prerequisites for all Road 2 Care personnel.
                 </p>
               </div>
             </div>
@@ -199,7 +199,7 @@ export const AboutPage: React.FC = () => {
             <span className="eyebrow">Leadership & Team</span>
             <h2>Dedicated Support Professionals</h2>
             <p className="lead">
-              Road2Care is built by passionate disability support specialists committed to making a tangible
+              Road 2 Care is built by passionate disability support specialists committed to making a tangible
               difference in our community.
             </p>
           </div>
@@ -210,7 +210,7 @@ export const AboutPage: React.FC = () => {
               <strong>Verified Information Commitment:</strong>
               <p>
                 In accordance with our honest communication policy, genuine staff profiles, qualifications, and
-                leadership biographies will be uploaded prior to public launch. Road2Care never fabricates staff
+                leadership biographies will be uploaded prior to public launch. Road 2 Care never fabricates staff
                 identities or credentials.
               </p>
             </div>
@@ -266,7 +266,7 @@ export const AboutPage: React.FC = () => {
           </p>
           <div style={{ display: 'flex', justifyContent: 'center', gap: '16px', flexWrap: 'wrap' }}>
             <Link to="/contact" className="btn btn-accent btn-lg">
-              <span>Contact Road2Care</span>
+              <span>Contact Road 2 Care</span>
               <ArrowRight size={18} aria-hidden="true" />
             </Link>
             <Link to="/areas" className="btn btn-outline-white btn-lg">

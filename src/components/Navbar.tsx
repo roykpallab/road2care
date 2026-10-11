@@ -29,7 +29,7 @@ export const Navbar: React.FC = () => {
               <span>Call: {siteConfig.business.phoneDisplay}</span>
             </a>
             <span className="top-divider" aria-hidden="true">•</span>
-            <a href={`mailto:${siteConfig.business.email}`} className="top-link" aria-label={`Email Road2Care at ${siteConfig.business.email}`}>
+            <a href={`mailto:${siteConfig.business.email}`} className="top-link" aria-label={`Email Road 2 Care at ${siteConfig.business.email}`}>
               <Mail size={14} aria-hidden="true" />
               <span>{siteConfig.business.email}</span>
             </a>
@@ -40,7 +40,7 @@ export const Navbar: React.FC = () => {
       {/* Main Navigation Header */}
       <header className="main-header">
         <div className="container nav-container">
-          <Link to="/" className="brand-link" onClick={closeMenu} aria-label="Road2Care Homepage">
+          <Link to="/" className="brand-link" onClick={closeMenu} aria-label="Road 2 Care Pty Ltd Homepage">
             <Logo height={52} />
           </Link>
 
@@ -94,7 +94,7 @@ export const Navbar: React.FC = () => {
                   Our Services
                 </NavLink>
                 <NavLink to="/about" onClick={closeMenu} className={({ isActive }) => `mobile-nav-link ${isActive ? 'active' : ''}`}>
-                  About Road2Care
+                  About Road 2 Care
                 </NavLink>
                 <NavLink to="/areas" onClick={closeMenu} className={({ isActive }) => `mobile-nav-link ${isActive ? 'active' : ''}`}>
                   Areas We Serve

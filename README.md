@@ -1,6 +1,6 @@
-# Road2Care – Professional NDIS Disability Support Website
+# Road 2 Care Pty Ltd – Professional NDIS Disability Support Website
 
-Welcome to the official web project for **Road2Care** ([https://road2care.com](https://road2care.com/)), an Australian disability support service dedicated to empowering NDIS participants across Melbourne, Victoria.
+Welcome to the official web project for **Road 2 Care Pty Ltd** ([https://road2care.com](https://road2care.com/)), an Australian disability support service dedicated to empowering NDIS participants across Melbourne, Victoria.
 
 > **Tagline:** *Empowering Abilities. Enriching Lives.*  
 > **Mission:** *Support That Helps You Move Forward.*
@@ -203,7 +203,7 @@ To receive submissions directly without opening the user's email client:
 
 Every placeholder used across the website is transparently documented below. The business owner should complete this checklist prior to public promotion:
 
-- [ ] **ABN (Australian Business Number):** Provide genuine ABN to replace `XX XXX XXX XXX` in `siteConfig.ts` and footer.
+- [x] **Legal Entity & ABN:** Confirmed: `Road 2 Care Pty Ltd` (ABN: `44 701 064 235`).
 - [x] **Phone Number:** Confirmed: `0482 043 737`.
 - [x] **Email Address:** Confirmed: `admin@road2care.com.au`.
 - [ ] **NDIS Registration Status:** Verify current status with the NDIS Quality and Safeguards Commission. (Currently configured as *Unregistered Provider / Supporting Self-Managed & Plan-Managed Participants*).

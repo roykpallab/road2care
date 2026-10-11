@@ -23,8 +23,8 @@ import { useDocumentTitle } from '../hooks/useDocumentTitle';
 
 export const HomePage: React.FC = () => {
   useDocumentTitle(
-    'Road2Care | Support That Helps You Move Forward | NDIS Disability Services',
-    'Road2Care delivers compassionate, person-centred NDIS disability support services across Melbourne. Empowering abilities, building independence, and enriching lives.'
+    'Road 2 Care Pty Ltd | Support That Helps You Move Forward | NDIS Disability Services',
+    'Road 2 Care Pty Ltd delivers compassionate, person-centred NDIS disability support services across Melbourne. Empowering abilities, building independence, and enriching lives.'
   );
 
   const [openFaq, setOpenFaq] = useState<number | null>(null);
@@ -74,11 +74,11 @@ export const HomePage: React.FC = () => {
 
   const faqs = [
     {
-      q: 'What types of NDIS funding can use Road2Care services?',
-      a: 'Road2Care currently welcomes both Self-Managed and Plan-Managed NDIS participants. If you or your family manage your funding, or if you use a registered Plan Manager, you have full freedom to select Road2Care as your support provider. If your plan is NDIA-managed, please contact us to discuss available arrangements.',
+      q: 'What types of NDIS funding can use Road 2 Care services?',
+      a: 'Road 2 Care Pty Ltd currently welcomes both Self-Managed and Plan-Managed NDIS participants. If you or your family manage your funding, or if you use a registered Plan Manager, you have full freedom to select Road 2 Care as your support provider. If your plan is NDIA-managed, please contact us to discuss available arrangements.',
     },
     {
-      q: 'How does Road2Care match support workers with participants?',
+      q: 'How does Road 2 Care match support workers with participants?',
       a: 'We understand that great support starts with the right relationship. We take time during our initial consultation to learn about your personality, hobbies, cultural preferences, and language needs, matching you with trained support workers who share your interests and respect your routine.',
     },
     {
@@ -109,7 +109,7 @@ export const HomePage: React.FC = () => {
               Support That Helps You <span className="highlight-text">Move Forward.</span>
             </h1>
             <p className="hero-subtitle">
-              At Road2Care, we believe everyone deserves respectful, personalised support to pursue their goals,
+              At Road 2 Care, we believe everyone deserves respectful, personalised support to pursue their goals,
               build confidence, and participate actively in their community.
             </p>
             <div className="hero-quote-badge">
@@ -411,7 +411,7 @@ export const HomePage: React.FC = () => {
               <span className="eyebrow">For Support Coordinators & Plan Managers</span>
               <h2>A Reliable Partner for Your Participants</h2>
               <p>
-                We value your time and dedication. Road2Care works cooperatively with Support Coordinators,
+                We value your time and dedication. Road 2 Care works cooperatively with Support Coordinators,
                 Local Area Coordinators (LACs), and Plan Managers to provide rapid intakes, accurate NDIS
                 itemised reporting, and dependable service delivery.
               </p>

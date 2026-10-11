@@ -30,7 +30,7 @@ export const Footer: React.FC = () => {
         <div className="footer-grid">
           {/* Col 1: Brand & Identity */}
           <div className="footer-col brand-col">
-            <Link to="/" aria-label="Road2Care Homepage">
+            <Link to="/" aria-label="Road 2 Care Pty Ltd Homepage">
               <Logo height={56} />
             </Link>
             <p className="footer-tagline">
@@ -52,7 +52,7 @@ export const Footer: React.FC = () => {
             <ul className="footer-links">
               <li><Link to="/">Home</Link></li>
               <li><Link to="/services">All Services</Link></li>
-              <li><Link to="/about">About Road2Care</Link></li>
+              <li><Link to="/about">About Road 2 Care</Link></li>
               <li><Link to="/areas">Areas We Serve</Link></li>
               <li><Link to="/contact">Contact & Referrals</Link></li>
               <li><Link to="/privacy">Privacy Policy</Link></li>
@@ -73,7 +73,7 @@ export const Footer: React.FC = () => {
 
           {/* Col 4: Contact & Details */}
           <div className="footer-col contact-col">
-            <h4 className="footer-heading">Contact Road2Care</h4>
+            <h4 className="footer-heading">Contact Road 2 Care</h4>
             <ul className="footer-contact-list">
               <li>
                 <Phone size={18} className="contact-icon" aria-hidden="true" />
@@ -122,7 +122,7 @@ export const Footer: React.FC = () => {
             <strong>NDIS Compliance & Provider Status Notice</strong>
           </div>
           <p>
-            {siteConfig.compliance.registrationNotice} Road2Care is not affiliated with the National Disability
+            {siteConfig.compliance.registrationNotice} Road 2 Care Pty Ltd is not affiliated with the National Disability
             Insurance Agency (NDIA) or the NDIS Quality and Safeguards Commission. All supports are delivered in
             accordance with the NDIS Code of Conduct and Australian standards. In a life-threatening emergency, please dial 000.
           </p>

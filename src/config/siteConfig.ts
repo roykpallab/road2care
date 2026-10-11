@@ -58,14 +58,14 @@ export interface SiteConfig {
 
 export const siteConfig: SiteConfig = {
   business: {
-    name: 'Road2Care',
-    legalName: 'Road2Care (ABN to be confirmed)',
+    name: 'Road 2 Care Pty Ltd',
+    legalName: 'Road 2 Care Pty Ltd',
     tagline: 'Empowering Abilities. Enriching Lives',
     subTagline: 'Support That Helps You Move Forward',
     phone: '+61482043737',
     phoneDisplay: '0482 043 737',
     email: 'admin@road2care.com.au',
-    abn: 'XX XXX XXX XXX (To be provided)',
+    abn: '44 701 064 235',
     serviceAreaSummary: 'Melbourne, Victoria (Contact us to confirm local availability)',
     operatingHours: 'Monday – Friday: 8:30 AM – 5:30 PM | Support Services 7 Days by Arrangement',
     officialDomain: 'https://road2care.com',
@@ -74,9 +74,9 @@ export const siteConfig: SiteConfig = {
   compliance: {
     isRegisteredProvider: false,
     registrationNotice:
-      'Road2Care currently supports Self-Managed and Plan-Managed NDIS participants. Provider registration is under review. We do not claim official NDIS Commission endorsement.',
+      'Road 2 Care Pty Ltd currently supports Self-Managed and Plan-Managed NDIS participants. Provider registration is under review. We do not claim official NDIS Commission endorsement.',
     workerScreeningCommitment:
-      'All Road2Care support workers undergo Australian NDIS Worker Screening Checks, National Police Checks, Working with Children Checks, and maintain current First Aid & CPR certifications.',
+      'All Road 2 Care Pty Ltd support workers undergo Australian NDIS Worker Screening Checks, National Police Checks, Working with Children Checks, and maintain current First Aid & CPR certifications.',
   },
 
   socialLinks: {
@@ -319,5 +319,5 @@ export const siteConfig: SiteConfig = {
   ],
 
   acknowledgementOfCountry:
-    'Road2Care acknowledges the Traditional Custodians of the lands across Australia on which we live and work. We recognise their continuing connection to land, water, and community, and pay our respects to Elders past, present, and emerging.',
+    'Road 2 Care Pty Ltd acknowledges the Traditional Custodians of the lands across Australia on which we live and work. We recognise their continuing connection to land, water, and community, and pay our respects to Elders past, present, and emerging.',
 };

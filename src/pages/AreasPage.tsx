@@ -15,8 +15,8 @@ import { useDocumentTitle } from '../hooks/useDocumentTitle';
 
 export const AreasPage: React.FC = () => {
   useDocumentTitle(
-    'Areas We Serve | Melbourne NDIS Disability Support | Road2Care',
-    'Find out where Road2Care provides NDIS support services across Melbourne, Victoria. Check your suburb and confirm service availability with our team.'
+    'Areas We Serve | Melbourne NDIS Disability Support | Road 2 Care Pty Ltd',
+    'Find out where Road 2 Care Pty Ltd provides NDIS support services across Melbourne, Victoria. Check your suburb and confirm service availability with our team.'
   );
 
   const [searchQuery, setSearchQuery] = useState('');
@@ -47,7 +47,7 @@ export const AreasPage: React.FC = () => {
             <span className="eyebrow light">Service Coverage</span>
             <h1>Areas We Serve Across Melbourne</h1>
             <p className="lead">
-              Road2Care provides in-home and community disability support across various Melbourne regions.
+              Road 2 Care provides in-home and community disability support across various Melbourne regions.
               Because worker matching is personal, please check with us to confirm availability in your local area.
             </p>
 
@@ -57,7 +57,7 @@ export const AreasPage: React.FC = () => {
               <div>
                 <strong>Service Availability Notice:</strong>
                 <p>
-                  Contact Road2Care to confirm service availability in your area. Service provision depends on
+                  Contact Road 2 Care to confirm service availability in your area. Service provision depends on
                   suitable support worker matching, schedule availability, and participant travel preferences.
                 </p>
               </div>
@@ -200,7 +200,7 @@ export const AreasPage: React.FC = () => {
               <div>
                 <h3>NDIS Provider Travel Information</h3>
                 <p>
-                  Road2Care adheres transparently to the NDIS Pricing Arrangements and Price Limits regarding
+                  Road 2 Care adheres transparently to the NDIS Pricing Arrangements and Price Limits regarding
                   provider travel. Where provider travel is claimed, it is mutually discussed and agreed in your
                   Service Agreement prior to commencing support.
                 </p>

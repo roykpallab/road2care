@@ -4,7 +4,7 @@ import { Compass, Home, Phone } from 'lucide-react';
 import { useDocumentTitle } from '../hooks/useDocumentTitle';
 
 export const NotFoundPage: React.FC = () => {
-  useDocumentTitle('Page Not Found | Road2Care');
+  useDocumentTitle('Page Not Found | Road 2 Care Pty Ltd');
 
   return (
     <main id="main-content" className="not-found-page">
@@ -29,7 +29,7 @@ export const NotFoundPage: React.FC = () => {
             </Link>
             <Link to="/contact" className="btn btn-outline btn-lg">
               <Phone size={18} aria-hidden="true" />
-              <span>Contact Road2Care</span>
+              <span>Contact Road 2 Care</span>
             </Link>
           </div>
         </div>

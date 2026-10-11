@@ -5,8 +5,8 @@ import { useDocumentTitle } from '../hooks/useDocumentTitle';
 
 export const PrivacyPage: React.FC = () => {
   useDocumentTitle(
-    'Privacy Policy | Road2Care Disability Support Services',
-    'Review the Privacy Policy template for Road2Care, outlining how enquiry information and personal records are handled under the Australian Privacy Principles.'
+    'Privacy Policy | Road 2 Care Pty Ltd Disability Support Services',
+    'Review the Privacy Policy template for Road 2 Care Pty Ltd, outlining how enquiry information and personal records are handled under the Australian Privacy Principles.'
   );
 
   return (
@@ -18,7 +18,7 @@ export const PrivacyPage: React.FC = () => {
             <span className="eyebrow light">Legal & Compliance</span>
             <h1>Privacy Policy Template</h1>
             <p className="lead">
-              At Road2Care, we respect the privacy of participants, carers, family members, and service partners.
+              At Road 2 Care Pty Ltd, we respect the privacy of participants, carers, family members, and service partners.
               This document outlines how personal and enquiry data is handled.
             </p>
           </div>
@@ -35,7 +35,7 @@ export const PrivacyPage: React.FC = () => {
               <div>
                 <strong>Important Notice for Business Owner:</strong>
                 <p>
-                  This privacy policy is a draft template prepared for Road2Care based on the Australian Privacy
+                  This privacy policy is a draft template prepared for Road 2 Care Pty Ltd based on the Australian Privacy
                   Principles (APPs) under the <em>Privacy Act 1988 (Cth)</em> and NDIS Quality and Safeguards
                   Commission guidance. Prior to public commercial operation, the business owner must review,
                   verify, and finalise all operational details, registered business names, and internal data handling
@@ -47,7 +47,7 @@ export const PrivacyPage: React.FC = () => {
             <article className="policy-body">
               <h2>1. Commitment to Privacy</h2>
               <p>
-                Road2Care (referred to as "we", "us", or "our") recognises the vital importance of protecting the
+                Road 2 Care Pty Ltd (referred to as "we", "us", or "our") recognises the vital importance of protecting the
                 privacy and dignity of our clients, participants, families, support coordinators, and website
                 visitors. We handle personal information in general alignment with the Australian Privacy Principles
                 (APPs) contained in the <em>Privacy Act 1988 (Cth)</em> and relevant state health privacy legislation.
@@ -123,10 +123,10 @@ export const PrivacyPage: React.FC = () => {
               <h2>8. Complaints and Contact Information</h2>
               <p>
                 If you have questions regarding this Privacy Policy or wish to make a complaint about how your personal
-                information has been handled, please contact Road2Care:
+                information has been handled, please contact Road 2 Care Pty Ltd:
               </p>
               <div className="contact-box">
-                <p><strong>Road2Care Privacy Officer</strong></p>
+                <p><strong>Road 2 Care Pty Ltd Privacy Officer</strong></p>
                 <p>Email: <a href={`mailto:${siteConfig.business.email}`}>{siteConfig.business.email}</a></p>
                 <p>Phone: {siteConfig.business.phoneDisplay}</p>
                 <p>Website: <a href="https://road2care.com">https://road2care.com</a></p>
@@ -142,7 +142,7 @@ export const PrivacyPage: React.FC = () => {
               </ul>
 
               <div className="policy-footer-note">
-                <p><em>Template Date: October 2026 | Road2Care Australia</em></p>
+                <p><em>Template Date: October 2026 | Road 2 Care Pty Ltd</em></p>
               </div>
             </article>
           </div>
