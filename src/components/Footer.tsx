@@ -31,7 +31,7 @@ export const Footer: React.FC = () => {
           {/* Col 1: Brand & Identity */}
           <div className="footer-col brand-col">
             <Link to="/" aria-label="Road 2 Care Pty Ltd Homepage">
-              <Logo height={56} />
+              <Logo height={48} variant="badge" />
             </Link>
             <p className="footer-tagline">
               <strong>{siteConfig.business.tagline}</strong>
